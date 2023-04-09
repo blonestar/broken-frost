@@ -8,6 +8,9 @@
  * @link    https://frostwp.com/
  */
 
+include "inc/inc.vite.php";
+
+
 if ( ! function_exists( 'frost_setup' ) ) {
 
 	/**
