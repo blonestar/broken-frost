@@ -1,17 +1,21 @@
 === Frost ===
-Contributors: bgardner
+Contributors: wpengine, bgardner
 Requires at least: 6.2
 Tested up to: 6.2
 Requires PHP: 5.6
-Stable tag: 0.9.10
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-An experimental block theme for designers, developers, and creators.
+With its clean, minimal design and powerful feature set, Frost enables agencies to build stylish and sophisticated WordPress websites. Frost is a masterpiece of design and functionality. It features a range of valuable elements, including hero and portfolio sections, prominent call-to-action buttons, and customer testimonials. In addition, Frost utilizes the potential of the editor to create link pages, serve as a powerful tool for building relationships with clients, sharing valuable content, and boosting social media engagement. So whether you’re building a website for your business, personal brand, or creative project, Frost is the perfect solution for anyone looking to launch a website quickly and efficiently.
 
 == Changelog ==
+
+= 1.0.0 - 2023-03-31 =
+
+[Release Notes](https://github.com/wpengine/frost/releases/tag/v1.0.0)
 
 = 0.9.10 - 2022-12-09 =
 
@@ -99,7 +103,7 @@ Initial public release.
 
 == Copyright ==
 
-Frost WordPress Theme, (C) 2022 WP Engine.
+Frost WordPress Theme, (C) 2022-2023 WP Engine.
 Frost is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
