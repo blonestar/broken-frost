@@ -1,5 +1,7 @@
 # No Frost
 
+***Note: Vite&Tailwindcss has been integrated but still work in progress and testing...***
+
 The ultimate WordPress theme for modern, performance-driven website builders, based on the Frost theme built by WPEngine and integrated with ViteJS and TailwindCSS.
 
 ![No Frost WordPress Theme](https://user-images.githubusercontent.com/486261/224737575-6045a830-6ef7-4551-a887-82d6228b1530.jpg)
