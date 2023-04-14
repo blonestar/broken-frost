@@ -1,9 +1,8 @@
 /*
-Theme Name: Frost
+Theme Name: No Frost
 Theme URI: https://frostwp.com/
-Author: WP Engine
-Author URI: https://wpengine.com/
-Description: With its clean, minimal design and powerful feature set, Frost enables agencies to build stylish and sophisticated WordPress websites.
+Author: Bojan
+Description: Introducing No Frost, the upgraded version of the popular Frost theme. Now enhanced with ViteJS and TailwindCSS, this sleek, minimal design boasts a robust feature set, enabling agencies to create modern, sophisticated, and performance-driven WordPress websites with ease.
 Tags: block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, one-column, template-editing, threaded-comments, translation-ready, wide-blocks
 Requires at least: 6.2
 Tested up to: 6.2
@@ -11,15 +10,15 @@ Requires PHP: 5.6
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: frost
+Text Domain: nofrost
 
-Frost WordPress Theme, (C) 2022-2023 WP Engine.
-Frost is distributed under the terms of the GNU GPL.
+No Frost WordPress Theme, (C) 2022-2023 WP Engine.
+No Frost is distributed under the terms of the GNU GPL.
 */
 
 
 /* Defaults
----------------------------------------------------------------------------- */
+---------------------------------------------------------------------------- 
 
 *,
 *::before,
@@ -79,10 +78,10 @@ mark {
 }
 
 /* Blocks
----------------------------------------------------------------------------- */
+---------------------------------------------------------------------------- * /
 
 /* Button - Outline
---------------------------------------------- */
+--------------------------------------------- * /
 
 .wp-block-button.is-style-outline .wp-element-button {
 	background-color: transparent;
@@ -93,7 +92,7 @@ mark {
 }
 
 /* Calendar
---------------------------------------------- */
+--------------------------------------------- * /
 
 .wp-block-calendar table caption,
 .wp-block-calendar table tbody {
@@ -112,7 +111,7 @@ mark {
 }
 
 /* Code
---------------------------------------------- */
+--------------------------------------------- * /
 
 .wp-block-code code {
 	overflow-wrap: normal;
@@ -128,7 +127,7 @@ mark {
 }
 
 /* Comments
---------------------------------------------- */
+--------------------------------------------- * /
 
 .wp-block-comment-template li {
 	margin-left: 0;
@@ -166,7 +165,7 @@ mark {
 }
 
 /* Image
---------------------------------------------- */
+--------------------------------------------- * /
 
 .wp-block-image.aligncenter {
 	margin-left: auto !important;
@@ -182,7 +181,7 @@ mark {
 }
 
 /* List
---------------------------------------------- */
+--------------------------------------------- * /
 
 ol li:where(:not([class*='block'])),
 ul li:where(:not([class*='block'])),
@@ -196,7 +195,7 @@ ul li:where(:not([class*='block'])),
 }
 
 /* Navigation
---------------------------------------------- */
+--------------------------------------------- * /
 
 .wp-block-navigation__responsive-container.is-menu-open {
 	padding-bottom: 30px;
@@ -221,7 +220,7 @@ ul li:where(:not([class*='block'])),
 }
 
 /* Navigation Submenu
---------------------------------------------- */
+---------------------------------------------  * /
 
 .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
 	background-color: var(--wp--preset--color--contrast);
@@ -235,14 +234,14 @@ ul li:where(:not([class*='block'])),
 }
 
 /* Paragraph
---------------------------------------------- */
+--------------------------------------------- * /
 
 p.has-background {
 	padding: 20px 30px;
 }
 
 /* Preformatted
---------------------------------------------- */
+--------------------------------------------- * /
 
 .wp-block-preformatted {
 	overflow-wrap: normal;
@@ -251,21 +250,21 @@ p.has-background {
 }
 
 /* Pullquote
---------------------------------------------- */
+--------------------------------------------- * /
 
 .wp-block-pullquote p:last-of-type {
 	margin-bottom: 0;
 }
 
 /* Quote
---------------------------------------------- */
+--------------------------------------------- * /
 
 .wp-block-quote p:last-of-type {
 	margin-bottom: 0;
 }
 
 /* Separator
---------------------------------------------- */
+--------------------------------------------- * /
 
 .wp-block-separator.is-style-dots:before {
 	font-family: inherit;
@@ -286,7 +285,7 @@ p.has-background {
 }
 
 /* Social Icons
---------------------------------------------- */
+--------------------------------------------- * /
 
 .wp-block-social-links.is-style-outline .wp-block-social-link {
 	background-color: transparent;
@@ -294,14 +293,14 @@ p.has-background {
 }
 
 /* Spacer
---------------------------------------------- */
+--------------------------------------------- * /
 
 .wp-block-spacer + * {
 	margin-top: 0 !important;
 }
 
 /* Table
---------------------------------------------- */
+--------------------------------------------- * /
 
 .wp-block-table.is-style-stripes {
 	border-bottom: none;
@@ -345,7 +344,7 @@ p.has-background {
 ---------------------------------------------------------------------------- */
 
 /* Forms
---------------------------------------------- */
+--------------------------------------------- * /
 
 input,
 select,
@@ -391,12 +390,12 @@ textarea {
 }
 
 /* Media Queries
----------------------------------------------------------------------------- */
+---------------------------------------------------------------------------- * /
 
 @media only screen and (max-width: 780px) {
 
 	/* Columns
-	--------------------------------------------- */
+	--------------------------------------------- * /
 
 	.is-style-columns-reverse {
 		flex-direction: column-reverse;
@@ -407,7 +406,7 @@ textarea {
 @media only screen and (min-width: 800px) {
 
 	/* Navigation Link
-	--------------------------------------------- */
+	--------------------------------------------- * /
 
 	.wp-block-navigation-item.is-style-outline a {
 		border: 1px solid currentColor;
@@ -415,7 +414,7 @@ textarea {
 	}
 
 	/* Pullquote
-	--------------------------------------------- */
+	--------------------------------------------- * /
 
 	.wp-block-pullquote.alignleft,
 	.wp-block-pullquote.alignright {
@@ -431,3 +430,4 @@ textarea {
 	}
 
 }
+*/
